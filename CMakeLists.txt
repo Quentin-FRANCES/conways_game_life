@@ -3,5 +3,4 @@ project(conways_game_life_v0)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(conways_game_life_v0) 
-# Juste des espaces, pas de virgules
+add_executable(conways_game_life_v0 main.cpp grid.cpp) 
